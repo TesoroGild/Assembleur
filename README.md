@@ -7,3 +7,6 @@ Maintenant, définissons un nombre parfait. On dit qu’un nombre entier est par
 
 ## Substitution de text
 Former un nouveau texte à partir du texte initial en remplaçant une séquence de caractères spécifique par une autre séquence de caractères.
+
+## Tri
+Programme qui permet de fusionner les deux listes triées des notes en une seule. 3 attributs NOM, PRENOM et NOTE. Elles sont triées par NOM. Si le NOM est le même on tri par PRENOM. Si le PRENOM est le même on tri par NOTE. Et si les NOTE sont les même on ne tri pas.

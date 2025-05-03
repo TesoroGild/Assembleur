@@ -2,9 +2,10 @@
 ;       Programme: remplacer.pep                                  ;
 ;       PEP/8 version 8.2 sous Windows                            ;
 ;                                                                 ;
-;       Programme qui forme un nouveau texte � partir du          ;
-;       texte initial en rempla�ant une s�quence de caract�res    ;
-;       sp�cifique par une autre s�quence de caract�res           ;                                     ;
+;       Programme qui forme un nouveau texte � partir du         ;
+;       texte initial en rempla�ant une s�quence de caract�res  ;
+;       sp�cifique par une autre s�quence de caract�res         ;
+;                                                                 ;
 ; ****************************************************************;
 
          ;T : signifie traitement
