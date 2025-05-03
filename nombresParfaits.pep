@@ -12,6 +12,7 @@
 ;       de d�bordment mais on affiche pas la somme
 ;       de ses diviseurs. Le programme affiche
 ;       directemetn qu'il n'est pas un nombre parfait.
+;
 ; *********************************************************************************************************
 
          ;T : signifie traitement
