@@ -2,23 +2,16 @@
 ;       Programme: nombresParfiats.pep
 ;       PEP/8 version 8.2 sous Windows
 ;
-;       Programme qui demande un nombre à l'utilisateur
+;       Programme qui demande un nombre ï¿½ l'utilisateur
 ;       puis affiche la somme et dit s'il s'agit d'un
 ;       nombre parfait ou non.
-;       Lorsqu'il y a débordement, la somme n'est pas
-;       affichée et le programme affiche directement
+;       Lorsqu'il y a dï¿½bordement, la somme n'est pas
+;       affichï¿½e et le programme affiche directement
 ;       que le nombre n'est pas parfait.
 ;       L'entier 1 est particulier car il n'y a pas
-;       de débordment mais on affiche pas la somme
+;       de dï¿½bordment mais on affiche pas la somme
 ;       de ses diviseurs. Le programme affiche
 ;       directemetn qu'il n'est pas un nombre parfait.
-;
-;       auteur:   BOSSOU Gildérick Elikem & BARBOSA DA SILVA ALVES Diana Carolina
-;       codePerm: BOSG64080108 & BARD15568309
-;       courriel: bossou.gilderick_elikem@courriel.uqam.ca & barbosa_da_silva_alves.diana@courrier.uqam.ca
-;       session:  Hiver 2022
-;       date dernière modification: 2022-02-16
-;       cours:    INF2171
 ; *********************************************************************************************************
 
          ;T : signifie traitement
@@ -170,10 +163,10 @@ fin:     LDA     cmpEss,d    ;
          ;=============================
          ;INITIALISATION DES VARIABLES
          ;=============================
-init:    LDA     0,i         ; initialisation à 0 des variables
+init:    LDA     0,i         ; initialisation ï¿½ 0 des variables
          STA     somme,d     ; somme
          STA     cmpM,d      ; compteur de moitie
-         LDA     1,i         ; initialisation à 1 des variables
+         LDA     1,i         ; initialisation ï¿½ 1 des variables
          STA     cmpD,d      ; compteur de diviseur
          STA     div,d       ; diviseur
          CHARO   0x000A,i    ;
@@ -186,11 +179,11 @@ msgSum:  .ASCII  "Somme des diviseurs : \x00"
 msgNb:   .ASCII  "\x0ALe nombre \x00"
 parf:    .ASCII  " est parfait.\x0A\x00"
 nonParf: .ASCII  " n'est pas parfait. \x0A\x00"
-invalid: .ASCII  "\x0AEntrée est invalide.\x0A\x00"
+invalid: .ASCII  "\x0AEntrï¿½e est invalide.\x0A\x00"
 entier:  .WORD   0           ; entier saisi au clavier
 nbEssai: .WORD   5           ; nombre de tentatives
 div:     .WORD   1           ; diviseur
-cmpEss:  .WORD   1           ; compteur du nombre d'excécution
+cmpEss:  .WORD   1           ; compteur du nombre d'excï¿½cution
 cmpM:    .WORD   0           ; compteur pour calcul de la moitie
 cmpD:    .WORD   1           ; compteur des diviseurs
 min:     .WORD   1           ; valeur min
